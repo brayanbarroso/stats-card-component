@@ -20,12 +20,16 @@ body {
 .card-component {
   background-color: var(--Dark-desaturated-blue);
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
   inline-size: 325px;
   margin: auto;
   margin-block-start: 85px;
 }
 
-.card-image img {
+.card-image {
+  background: url("../images/image-header-mobile.jpg") #aa5cdb;
+  background-size: contain;
   block-size: 240px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -36,12 +40,28 @@ body {
   color: var(--White);
   font-family: "Inter", sans-serif;
   font-size: 25px;
-  margin-block: 40px 20px;
-  margin-inline: 34px;
+  margin-block-end: 20px;
+  margin-block-start: 40px;
+  margin-inline: 32px;
   text-align: center;
 }
-.card-descriptions p {
+.card-descriptions h1 span {
+  color: var(--Soft-violet);
+}
+.card-descriptions .description {
   color: var(--Slightly-transparent-white);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin-block-end: 50px;
+  margin-inline: 30px;
+  text-align: center;
+}
+
+.card-reference {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .attribution {
