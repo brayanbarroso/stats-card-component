@@ -29,7 +29,7 @@ body {
 }
 
 .card-image {
-  background: url("../images/image-header-mobile.jpg") #aa5cdb;
+  background: #aa5cdb url("../images/image-header-mobile.jpg");
   background-size: contain;
   block-size: 240px;
   border-top-left-radius: 10px;
@@ -40,10 +40,10 @@ body {
 .card-descriptions h1 {
   color: var(--White);
   font-family: "Inter", sans-serif;
-  font-size: 25px;
+  font-size: 28px;
   margin-block-end: 20px;
   margin-block-start: 40px;
-  margin-inline: 32px;
+  margin-inline: 30px;
   text-align: center;
 }
 .card-descriptions h1 span {
