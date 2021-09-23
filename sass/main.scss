@@ -88,10 +88,19 @@ body {
 }
 
 .attribution {
+  color: var(--Slightly-transparent-white);
   font-size: 11px;
+  margin-block-end: 20px;
+  margin-block-start: 20px;
   text-align: center;
 
   a {
-    color: hsl(228, 45%, 44%);
+    color: var(--White);
+  }
+
+  a:hover {
+    color: var(--Slightly-transparent-white);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
   }
 }
