@@ -29,7 +29,7 @@ body {
 }
 
 .card-image {
-  background: #aa5cdb url("../images/image-header-mobile.jpg");
+  background: linear-gradient(rgba(170, 91, 219, 0.5), rgba(170, 91, 219, 0.5)), url("../images/image-header-mobile.jpg");
   background-size: contain;
   block-size: 240px;
   border-top-left-radius: 10px;
@@ -101,8 +101,8 @@ body {
   }
 
   .card-image {
-    background-color: var(--Soft-violet);
-    background: url("../images/image-header-desktop.jpg");
+    background-image: linear-gradient(rgba(170, 91, 219, 0.5), rgba(170, 91, 219, 0.5)), url("../images/image-header-desktop.jpg");
+    background-color: red;
     background-size: cover;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 0px;
