@@ -28,6 +28,7 @@ body {
   margin-block-start: 40px;
 }
 
+/* ---------imagen------------ */
 .card-image {
   background: linear-gradient(rgba(170, 91, 219, 0.5), rgba(170, 91, 219, 0.5)), url("../images/image-header-mobile.jpg");
   background-size: contain;
@@ -37,6 +38,7 @@ body {
   inline-size: 100%;
 }
 
+/* ----------Description-------- */
 .card-descriptions h1 {
   color: var(--White);
   font-family: "Inter", sans-serif;
@@ -77,6 +79,7 @@ body {
   text-transform: uppercase;
 }
 
+/* ------footer---------- */
 .attribution {
   color: var(--Slightly-transparent-white);
   font-size: 11px;
